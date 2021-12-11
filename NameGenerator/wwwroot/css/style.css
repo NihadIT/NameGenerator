@@ -1,0 +1,24 @@
+﻿
+body {
+    padding: 10px 30px
+}
+
+label {
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#text-generator {
+    width: 300px;
+}
+
+#quantity-letters, #first-letterN,
+#first-letterF {
+    width: 50px;
+}
+
+.control-group {
+    margin: 10px 0
+}
+

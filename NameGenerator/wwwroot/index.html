@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Name Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="control-group">
+                <input type="text" id="text-generator" />
+                <input type="submit" id="Generate" value="Генерация" onclick="generate_click()" />
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Кол-во букв имени:</label>
+        </div>
+        <div class="controls">
+            <select id="quantity-letters"></select>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="inputEmail">Первая буква имени</label>
+            <div class="controls">
+                <select id="first-letterN"></select>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="inputFather">Первая буква отчества</label>
+            <div class="controls">
+                <select id="first-letterF"></select>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="inputGender">Пол:</label>
+            <div class="controls">
+                <select id="gender">
+                    <option value="1">Мужчина</option>
+                    <option value="0">Женщина</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="site.js" asp-append-version="true"></script>
+</body>
+</html>
